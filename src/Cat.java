@@ -46,6 +46,17 @@ public class Cat {
 		x = catX +100;
 		y = catY +100;
 		g2.fillOval(x, y, 10, 10);
+		
+		
+		g2.setColor(Color.black);
+		int X[] = {100,70,130};
+		int Y[] = {40,90,90};
+		g2.fillPolygon(X,Y,3);
+
+		int X2[] = {200,170,230};
+		int Y2[] = {40,90,90};
+		g2.fillPolygon(X2,Y2,3);
+		
 		// Meow text appears below cat head, +10 places below 
 		// so it doesn't overlap the drawing
 		g2.setColor(Color.black);

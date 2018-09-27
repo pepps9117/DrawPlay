@@ -43,15 +43,15 @@ public class Cat {
 		g2.fillOval(x, y, MOUTH_WIDTH, MOUTH_HEIGHT);
 		//Draw nose
 		g2.setColor(Color.pink);
-		x = catX +100;
-		y = catY +100;
-		g2.fillOval(x, y, 10, 10);
+		int X[] = {160, 150, 170};
+		int Y[] = {150, 155, 155};
+		g2.fillPolygon(X, Y, 3);
 		
 		
-		g2.setColor(Color.black);
-		int X[] = {100,70,130};
-		int Y[] = {40,90,90};
-		g2.fillPolygon(X,Y,3);
+		g2.setColor(Color.gray);
+		int X1[] = {100,70,130};
+		int Y1[] = {40,90,90};
+		g2.fillPolygon(X1,Y1,3);
 
 		int X2[] = {200,170,230};
 		int Y2[] = {40,90,90};
